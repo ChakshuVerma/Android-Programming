@@ -24,13 +24,13 @@ public class MainActivity extends AppCompatActivity {
         Send.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String str = Name.getText().toString().str)
+                String str = Name.getText().toString();
 
                 //User Actually Enters Something
                 if(str.length() > 0) {
                     Intent int_obj = new Intent();
                     int_obj.setAction(Intent.ACTION_SEND);
-                    int_obj.putExtra(Intent.EXTRA_TEXT, ;
+                    int_obj.putExtra(Intent.EXTRA_TEXT, str);
                     int_obj.setType("text/plain");
                     startActivity(int_obj);
                 }
