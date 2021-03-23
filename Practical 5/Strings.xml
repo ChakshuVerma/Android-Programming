@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Spinner</string>
+
+    <string-array name="My">
+        <item>Open Dropdown</item>
+        <item>College</item>
+        <item>City</item>
+        <item>Country</item>
+        <item>Planet</item>
+    </string-array>
+
+</resources>
