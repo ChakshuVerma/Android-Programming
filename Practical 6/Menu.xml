@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/item1"
+          android:title="Send data"
+          app:showAsAction = "never" />
+
+    <item android:id="@+id/item2"
+        android:title="Share With Friends"
+        app:showAsAction = "never" />
+
+
+    <item android:id="@+id/item3"
+        android:title="Premium"
+        app:showAsAction = "never" />
+
+    <item android:id="@+id/item4"
+        android:title="Support"
+        app:showAsAction = "never" >
+        <menu>
+            <item android:id="@+id/Subitem1"
+                android:title="FAQ"/>
+
+            <item android:id="@+id/Subitem2"
+                android:title="FeedBack"/>
+        </menu>
+    </item>
+
+    <item android:id="@+id/item5"
+        android:title="Settings"
+        app:showAsAction = "never" />
+
+</menu>
